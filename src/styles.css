@@ -1,0 +1,43 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.visualizer-container {
+  background: #000000;
+}
+
+.heading {
+  color: #ffffff;
+}
+
+.buttons-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 200px;
+}
+.btn {
+  background: hsl(270, 100%, 50%);
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.md-ml10 {
+  margin-left: 10px;
+}
+
+.md-mr10 {
+  margin-right: 10px;
+}
+
+.md-p5 {
+  padding: 5px;
+}
+
+.bar-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
